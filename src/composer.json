@@ -1,0 +1,21 @@
+{
+    "name": "laravelarticle/my-package",
+    "description": "First laravel package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harun",
+            "email": "info@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laravelarticle\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
+    }
+} 
